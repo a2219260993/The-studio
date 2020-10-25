@@ -1,0 +1,170 @@
+body {
+    background-image: url(../img/背景.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body {
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+    background-color: #ffffff;
+
+    box-shadow: 0 5px 7px #00000033;
+    display: flex;
+    justify-content: space-between;
+    /* background-image: url(../img/登录界面.png); */
+}
+
+input {
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 35px;
+    outline-style: none;
+    margin: 0px 0px 1px 0px;
+    padding-left: 20px;
+
+}
+
+.button {
+    background-image: url(../img/登录条.png);
+    background-size: cover;
+    border-radius: 35px;
+    color: #fff;
+    width: 160px;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.imgc {
+    background-image: url(../img/登录界面.png);
+    background-size: cover;
+    width: 50%;
+}
+
+.imgc img {
+    width: 100%;
+    height: 100%;
+}
+
+.left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left img {
+    width: 15%;
+    align-self: center;
+}
+
+.left p {
+    align-self: center;
+    font-size: 24px;
+}
+
+.left>:nth-child(3) {
+    margin-top: 0;
+    font-size: 14px;
+}
+
+.cin {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.cin p {
+    font-size: 5px;
+    margin-top: 20px;
+    align-self: flex-start;
+}
+
+.cin>:nth-child(6) {
+    margin-top: 0;
+    align-self: center;
+}
+
+.cin1 {
+    box-shadow: 0 0 3px #00000033;
+}
+
+.end {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 50px;
+}
+
+.endleft {
+    line-height: 45px;
+    font-size: 15px;
+}
+
+.endright {
+    color: #ffc498;
+    padding: 10px 5px;
+    border-radius: 20px;
+    font-size: 15px;
+    border: 2px #ffc498 solid;
+}
+
+/* 不会写渐变 */
+
+.right{
+    width: 80%;
+    margin:40px auto;
+    text-align: center;
+    height: 100%;
+}
+.right>:first-child{
+    font-size: 200px;
+    color: rgba(255, 255, 255, 0.445);
+}
+.right>:nth-child(2)
+{
+    font-size: 30px;
+    margin-top: -65px;
+    margin-bottom: 0;
+    padding-right: 50px;
+    color:white;
+
+}
+.right>:nth-child(2) p{
+margin:0;
+}
+.right>:nth-child(3)
+{   font-size: 12px;
+    color: white;
+    display: block;
+    margin-top: 30px;
+    padding: 0 75px;
+    text-align: left;
+}
+.pointBox{
+    text-align: left;
+    margin:10% 18%;
+}
+.point1{
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    width: 30px;
+    height: 10px;
+    border-radius: 10px;
+}
+.point2{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+/* 图上的小圆点实在不会弄了 */
