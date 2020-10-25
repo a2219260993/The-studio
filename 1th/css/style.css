@@ -67,7 +67,7 @@ li img {
   width: 40px;
   padding: 10px 0;
 }
-li:nth-child(2) {
+nav ul li:nth-child(2) {
   background-color: #59cae7;
 }
 .right-top {
@@ -390,6 +390,35 @@ border-radius: 25px;
   left:-35px;
   
 }
+.uu1{
+margin-left: 15%;
+margin-top: 10%;
+margin-bottom: 0;
+margin-right: 0;
+color: #d0d0d0;
+}
+.uu1 li{
+  margin-top: 12px;
+
+}
+.uu2{
+  width: 100%;
+  float: right;
+  margin-top:0;
+}
+.uu2::after{
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.uu2 li{
+  margin-left: 6px;
+  width: 10%;
+  display: block;
+  float: right;
+  color: #d0d0d0;
+}
 
 .centBox5{
   background-image: url(../img/1.png);
@@ -397,6 +426,7 @@ border-radius: 25px;
   background-size: 35%;
   background-position-x: center;
   background-position-y: 50px;
+  position: relative;
 }
 .centBox5 p{
   position: relative;
@@ -409,6 +439,34 @@ border-radius: 25px;
   top:3px;
   right: 15px;
   width: 30px;
+}
+
+.centBox5 div span{
+  font-size: 20px;
+}
+.point{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  margin-right:20px;
+  /* background-color: red; */
+}
+.p3p{
+  position: absolute;
+  bottom: 20px;
+  left:20px;
+}
+.p3p1
+{
+  background-color: #69c9d7;
+}
+.p3p2
+{
+  background-color: #fd867e;
+}
+.p3p3{
+  background-color: #ffb55c;
 }
 .img1{
   width:30px;
