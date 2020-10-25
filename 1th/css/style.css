@@ -315,6 +315,13 @@ border-radius: 25px;
   margin-top: 20px;
   margin-left: 32%;
 }
+.centBox3>:nth-child(2)
+{
+  font-size: 14px;
+  margin-top: 5px;
+  margin-left: 35%;
+}
+
 
 .center3>:nth-child(1)
 {
@@ -387,9 +394,21 @@ border-radius: 25px;
 .centBox5{
   background-image: url(../img/1.png);
   background-repeat: no-repeat;
-  background-size: 50%;
+  background-size: 35%;
   background-position-x: center;
   background-position-y: 50px;
+}
+.centBox5 p{
+  position: relative;
+  font-size: 25px;
+  margin-top: 5px;
+  margin-left: 25px;
+}
+.centBox5 p img{
+  position: absolute;
+  top:3px;
+  right: 15px;
+  width: 30px;
 }
 .img1{
   width:30px;
