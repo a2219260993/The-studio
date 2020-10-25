@@ -304,6 +304,18 @@ width: 30%;
 border-radius: 25px;
 
 }
+.centBox3 p
+{
+  color: #ffffff;
+
+}
+.centBox3>:nth-child(1)
+{
+  font-size: 17px;
+  margin-top: 20px;
+  margin-left: 32%;
+}
+
 .center3>:nth-child(1)
 {
   background-color: #fb8885;
@@ -360,9 +372,9 @@ border-radius: 25px;
   position: relative;
   background-image: url(../img/2.png);
   background-repeat: no-repeat;
-  background-size: 80%;
-  background-position-y: 65px;
-  background-position-x: 60px;
+  background-size: 70%;
+  background-position-y: 65%;
+  background-position-x: 80%;
 }
 .centBox4>p{
   font-size: 20px;
